@@ -3,5 +3,5 @@ while True:
     s = raw_input('Enter something:')
     if s == 'quit':
         break
-    print 'Length of the string is',len(s)
+print 'Length of the string is %s' % len(s)
 print 'Done'
